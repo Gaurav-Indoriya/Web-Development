@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Please Login</h1>
+    <div>
+        Username: <br>
+        <input type="text" id="username">
+        <br><br>
+        <input type="password" id="password">
+        <br><br>
+        <button onclick="login()">Sign In</button>
+    </div>
+
+    <script>
+        function login(){
+           var uname=document.getElementById("username").value;
+           var pass=document.getElementById("password").value;
+           if (uname == "gaurav" && pass == "captain"){
+            alert("Login Success");
+           }else{
+            alert("Invalid Creadentials");
+           }
+        }
+    </script>
+</body>
+</html>

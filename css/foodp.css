@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav css start */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    padding: 0 70px;
+    position: fixed;
+    top: 0;
+    background: white;
+    z-index: 1;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #E91E63;
+    font-weight: bold;
+    margin: 0 10px;
+    font-family: cursive;
+}
+.menu button{
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background: #ff2b85;
+    border-radius: 45px;
+}
+/* nav css end */
+
+/* banner css start */
+.banner{
+    width: 100%;
+    height: 400px;
+    background: url(../images/banner.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.banner h1{
+    font-size: 90px;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 180px;
+}
+/* banner css end */
+/* news css start */
+.news marquee{
+    width: 100%;
+    height: 40px;
+    background: #ff2b85;
+    line-height: 40px;
+    font-size: 22px;
+    text-shadow: 2px 2px 2px black;
+}
+/* news css end */
+/* about css start */
+.about{
+    padding: 50px 200px;
+    text-align: center;
+}
+.about h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: cursive;
+    padding-top: 10px;
+    color: #ff2b85;
+}
+.about p{
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+
+}
+.about button{
+    height: 35px;
+    width: 110px;
+    border: none;
+    border-radius: 60px;
+    background: #ff2b85;
+    color: white;
+    margin-top: 25px;
+}
+/* about css end */
+
+/* press css start */
+.press{
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background: url(../images/6.png);
+    text-align: center;
+    padding: 50px 200px;
+}
+.press h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: cursive;
+    padding-top: 10px;
+    color: #ff2b85;
+}
+.press p{
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+
+}
+.press button{
+    height: 35px;
+    width: 110px;
+    border: none;
+    border-radius: 60px;
+    background: #ff2b85;
+    color: white;
+    margin-top: 25px;
+}
+/* about css end */
+
+/* team css start */
+.team{
+    width: 100%;
+    height: 350px;
+    background: url(../images/7.jpeg);
+    text-align: center;
+    padding: 50px 200px;
+}
+.team h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: cursive;
+    padding-top: 10px;
+    color: #ff2b85;
+}
+.team p{
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+
+}
+.team button{
+    height: 35px;
+    width: 110px;
+    border: none;
+    border-radius: 60px;
+    background: #ff2b85;
+    color: white;
+    margin-top: 25px;
+}
+/* team css end */
+
+/* contact css start */
+.contact{
+    height: 350px;
+    width: 100%;
+    text-align: center;
+    background: #ff2b85;
+    padding: 50px 200px;
+}
+.contact h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: cursive;
+    padding-top: 10px;
+    color: black;
+}
+.contact p{
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+
+}
+.contact button{
+    height: 35px;
+    width: 110px;
+    border: none;
+    border-radius: 60px;
+    background:red;
+    color: white;
+    margin-top: 25px;
+}
+/* about css end */
+
+footer{
+    width: 100%;
+    height: 300px;
+}

@@ -1,0 +1,19 @@
+<script>
+    class FrontController{
+        static home = async (req,res)=>{
+            try {
+                document.write("hello")
+            } catch (error) {
+                console.log(error)
+            }
+        }
+        static about = async (req,res)=>{
+            try {
+                document.write("about")
+            } catch (error) {
+                console.log(error)
+            }
+        }
+    }
+    FrontController.home() //call by class name
+</script>

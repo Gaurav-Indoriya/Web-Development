@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loader</title>
+    <style>
+        .loader{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: #fff url('https://www.animatedimages.org/data/media/202/animated-dog-image-0081.gif') no-repeat center;
+        }
+    </style>
+</head>
+<body onload="loadfunction()">
+    <div class="loader"></div>
+    <h1>Hello Gaurav</h1>
+    <img src="https://i.pinimg.com/736x/2a/cc/8a/2acc8a69869094939664891dcf00c2e2.jpg" alt="">
+
+    <script>
+        let preloader = document.querySelector('.loader');
+        function loadfunction(){
+            preloader.style.display = 'none';
+        }
+    </script>
+</body>
+</html>

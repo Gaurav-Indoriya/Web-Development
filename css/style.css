@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: grey;
+    width: 100%;
+    height: 60px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+}
+nav .menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: cursive;
+    font-weight: bold;
+    margin: 0 10px;
+    color: #E91E63;
+}
+/* banner css start */
+.banner{
+    background: url(https://www.foodpanda.com/wp-content/themes/wp-delivery-hero-core-v2/assets/img/foodpanda/placeholders/brand-banner.jpeg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+.banner h1{
+    font-size: 70px;
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+    background: black;
+    position: relative;
+    top: 100px;
+    width: 50%;
+    margin: auto;
+}
+/* banner css end */
+/* location button start  */
+nav .menu button{
+    padding: 12px 42px;
+    background: #E91E63;
+    border: none;
+    border-radius: 22px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* location button end */
+.news{
+    width: 100%;
+    background:#E91E63;
+    height: 40px;
+}
+.news marquee{
+    font-size: 23px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+}
+.about{
+    padding: 10px 100px;
+    text-align: center;
+}
+.about h1{
+    color: red;
+    text-transform: uppercase;
+}
+.about p{
+    font-size: 15px;
+    line-height: 29px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.about button{
+    width: 130px;
+    height: 40px;
+    color: white;
+    background: #e91e63;
+    border: none;
+    margin-top: 14px;
+    border-radius: 25px;
+}
+.press{
+    background: url(../images/6.png);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.team{
+    background: url(../images/7.jpeg);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.contact{
+    background: #e91e63;
+    width: 100%;
+    height: 400px;
+}
+footer{
+    background: black;
+    width: 100%;
+    height: 200px;
+}

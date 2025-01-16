@@ -1,0 +1,89 @@
+.img2{
+    width: 80%;
+}
+.a{
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+.b{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+
+
+.bg-img{
+    background: url(../images/img-background.jpg);
+    height: 500px;
+    padding: 150px 0;
+}
+
+.d{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: justify;
+}
+
+footer{
+    background:#020306f0;
+    padding: 50px;
+    color: #fff;
+}
+footer h2{
+    font-family: "prague";
+    font-size: 2 rem;
+    line-height: 50px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+footer p{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 1 rem;
+    text-align: justify;
+}
+footer .foot add{
+    padding: 15px;
+}
+footer b{
+    color: #fcb21b;
+}
+.web-logo{
+    width: 65px;
+}
+
+.navbar{
+   background: #00000082 !important;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 20px;
+}
+.moblogo{
+    display: none;
+}
+@media(max-width:768px){
+    .moblogo{
+        display: block;
+    }
+    .web-logo{
+        display: none;
+    }
+    .navbar{
+        background: orange !important;
+    }
+}

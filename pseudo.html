@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo</title>
+</head>
+<style>
+    p::first-line{
+        color: red;
+        font-size: xx-large;
+    }
+    p::first-letter{
+        color: limegreen;
+    }
+    h1::before{
+        content: url(img.gif);
+    }
+    h1::after{
+        content: url(img.gif);
+    }
+</style>
+<body>
+    <p style="font-size: 18px; text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere natus alias dolorum praesentium eum illo vitae consequatur distinctio porro, corrupti, voluptatum modi nemo? Vitae optio doloribus harum ipsa culpa ratione.</p>
+    <h1>hey there</h1>
+    <h2>hey there</h2>
+    <a href="" target="_blank">Hello</a>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginForm</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url(images/banner.jpeg);
+            height: 500px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .login {
+            border: 1 px solid white;
+            width: 350px;
+            height: 250px;
+            box-sizing: border-box;
+            margin-top: 100px;
+            background: rgba(100, 100, 200, 0.6);
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px black;
+        }
+
+        .login h2 {
+            background: linear-gradient(to right, yellow, black);
+            margin-top: 40px;
+            font-size: 30px;
+            color: white;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        .login input{
+            width: 205px;
+            height: 30px;
+            border-radius: 9px;
+            outline: none;
+            padding-left: 11px;
+            background: black;
+            font-weight: bold;
+            color: white;
+        }
+        ::placeholder{
+            color: white;
+        }
+        button{
+            width: 100px;
+            height: 30px;
+            background-color: yellow;
+            color: red;
+            border-radius: 20px;
+        }
+        .login button:hover{
+            background: linear-gradient(to right, blue,red);
+            color: limegreen;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="login">
+            <h2>Login Form</h2>
+            <br><br>
+            <form action="">
+                <input type="text" placeholder="Enter Your Username">
+                <br><br>
+                <input type="password" placeholder="Enter Your Password">
+                <br><br>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>

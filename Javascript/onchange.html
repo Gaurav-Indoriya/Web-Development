@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onchange</title>
+</head>
+<body id="colors">
+    <select onchange="chagecolor(this.value)">
+        <option>select colors</option>
+        <option>red</option>
+        <option>green</option>
+        <option>blue</option>
+    </select>
+
+    <script>
+        function chagecolor(color){
+            document.getElementById('colors').style.background=color
+        }
+    </script>
+</body>
+</html>

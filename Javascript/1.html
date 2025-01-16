@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello world</title>
+    <script>
+   
+        let a = 7
+        let b = "Gaurav"
+        let c = true
+        let d = ["Gaurav",45,56.8,true]
+        let e = 45.6
+
+        document.write(a, typeof(a),"<br>")
+        document.write(b, typeof(b),"<br>")
+        document.write(c, typeof(c),"<br>")
+        document.write(d, typeof(d),"<br>")
+        document.write(e, typeof(e),"<br>")
+
+        console.log(d)
+
+        let obj = {
+            name:"gaurav",
+            city:"Gwalior",
+            phone:9827324206,
+            team:["gaurav",98,true],
+            funt:function(){
+                document.write("gaurav indoriya")
+            }
+        }
+        
+        document.write(obj.name)
+
+        document.write(JSON.stringify(obj))
+        console.log(obj)
+
+    </script>
+</head>
+<body>
+    <script src="main.js"></script>
+</body>
+</html>
